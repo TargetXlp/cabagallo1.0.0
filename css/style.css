@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #5B8C51;
-    --secondary: #EDDD5E;
-    --light: #F7F7F7;
-    --dark: #404A3D;
+    --primary: #8b2417;
+    --secondary: #f1b671;
+    --light: #8b2417;
+    --dark: #8b2417;
 }
 
 .back-to-top {
@@ -175,7 +175,7 @@
         position: relative;
         min-height: 450px;
     }
-    
+
     #header-carousel .carousel-item img {
         position: absolute;
         width: 100%;
@@ -301,7 +301,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: #FFFFFF;
+    background: #8b2417;
     transition: .5s ease-out;
     z-index: 2;
 }
@@ -336,7 +336,7 @@
 
 .service-item .service-text .btn {
     color: var(--secondary);
-    background: #FFFFFF;
+    background: #f1b671;
     box-shadow: 0 0 45px rgba(0, 0, 0, .25);
 }
 
