@@ -2,8 +2,8 @@
 :root {
     --primary: #8b2417;
     --secondary: #f1b671;
-    --light: #8b2417;
-    --dark: #f1b671;
+    --light: #f1b671;
+    --dark: #8b2417;
 }
 
 .back-to-top {
