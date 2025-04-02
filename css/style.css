@@ -4,6 +4,7 @@
     --secondary: #f1b671;
     --light: #f1b671;
     --dark: #8b2417;
+    --black:#000000
 }
 
 .back-to-top {
@@ -50,7 +51,7 @@
 
 .btn-primary,
 .btn-outline-primary:hover {
-    color: var(--light);
+    color: var(--dark);
 }
 
 .btn-secondary,
@@ -102,7 +103,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: var(--black);
 }
 
 .navbar .dropdown-toggle::after {
