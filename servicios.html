@@ -9,7 +9,9 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <!--link href="img/favicon.ico" rel="icon"-->
+    <link rel="icon" href="img/favicon.png" type="image/png">
+
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -118,59 +120,105 @@
 
     <!-- Service Start -->
     <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <p class="section-title bg-white text-center text-primary px-3"></p>
-                <h1 class="mb-5">Nuestros servicios</h1>
-            </div>
-            <div class="row gy-5 gx-4">
-                <div class="col-lg-4 col-md-6 pt-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item d-flex h-100">
-                        <div class="service-img">
-                            <img class="img-fluid" src="img/service-4.jpg" alt="">
-                        </div>
-                        <div class="service-text p-5 pt-0">
-                            <div class="service-icon">
-                                <img class="img-fluid rounded-circle" src="img/service-4.jpg" alt="">
-                            </div>
-                            <h5 class="mb-3">Incubadora</h4>
-                            <p class="mb-4">Orientación y servicio de incubación, acopio y manejo del huevo.</p>
-                            <a class="btn btn-square rounded-circle" href=""><i class="bi bi-chevron-double-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 pt-5 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item d-flex h-100">
-                        <div class="service-img">
-                            <img class="img-fluid" src="img/service-5.jpg" alt="">
-                        </div>
-                        <div class="service-text p-5 pt-0">
-                            <div class="service-icon">
-                                <img class="img-fluid rounded-circle" src="img/service-5.jpg" alt="">
-                            </div>
-                            <h5 class="mb-3">Venta de gallina ponedora</h5>
-                            <p class="mb-4">Huevo fértil y capacitación para el manejo de granjas.</p>
-                            <a class="btn btn-square rounded-circle" href=""><i class="bi bi-chevron-double-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 pt-5 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item d-flex h-100">
-                        <div class="service-img">
-                            <img class="img-fluid" src="img/service-6.jpg" alt="">
-                        </div>
-                        <div class="service-text p-5 pt-0">
-                            <div class="service-icon">
-                                <img class="img-fluid rounded-circle" src="img/service-6.jpg" alt="">
-                            </div>
-                            <h5 class="mb-3">Brindar asesorías</h5>
-                            <!--p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p-->
-                            <a class="btn btn-square rounded-circle" href=""><i class="bi bi-chevron-double-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="text-center mx-auto pb-4" style="max-width: 500px;">
+          <p class="section-title bg-white text-center text-primary px-3"></p>
+          <h1 class="mb-5">Nuestros servicios</h1>
         </div>
+
+        <div id="serviceCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <div class="row gx-4 gy-5">
+                <div class="col-lg-4 col-md-6 pt-5">
+                  <div class="service-item d-flex h-100">
+                    <div class="service-img">
+                      <img class="img-fluid" src="img/service-4.jpg" alt="Incubadora">
+                    </div>
+                    <div class="service-text p-5 pt-0">
+                      <div class="service-icon">
+                        <img class="img-fluid rounded-circle" src="img/service-4.jpg" alt="">
+                      </div>
+                      <h5 class="mb-3">Incubadora</h5>
+                      <p class="mb-4">Orientación y servicio de incubación, acopio y manejo del huevo.</p>
+                      <a class="btn btn-square rounded-circle" href="#"><i class="bi bi-chevron-double-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 pt-5">
+                  <div class="service-item d-flex h-100">
+                    <div class="service-img">
+                      <img class="img-fluid" src="img/service-5.jpg" alt="Venta de gallina ponedora">
+                    </div>
+                    <div class="service-text p-5 pt-0">
+                      <div class="service-icon">
+                        <img class="img-fluid rounded-circle" src="img/service-5.jpg" alt="">
+                      </div>
+                      <h5 class="mb-3">Venta de gallina ponedora</h5>
+                      <p class="mb-4">Huevo fértil y capacitación para el manejo de granjas.</p>
+                      <a class="btn btn-square rounded-circle" href="#"><i class="bi bi-chevron-double-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 pt-5">
+                  <div class="service-item d-flex h-100">
+                    <div class="service-img">
+                      <img class="img-fluid" src="img/service-6.jpg" alt="Veterinaria y Farmacia">
+                    </div>
+                    <div class="service-text p-5 pt-0">
+                      <div class="service-icon">
+                        <img class="img-fluid rounded-circle" src="img/service-6.jpg" alt="">
+                      </div>
+                      <h5 class="mb-3">Veterinaria y Farmacia</h5>
+                      <p class="mb-4">Boutique Encuestre y Gallinastica.</p>
+                      <a class="btn btn-square rounded-circle" href="#"><i class="bi bi-chevron-double-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+              <div class="row gx-4 gy-5">
+                <div class="col-lg-4 col-md-6 pt-5">
+                  <div class="service-item d-flex h-100">
+                    <div class="service-img">
+                      <img class="img-fluid" src="img/service-6.jpg" alt="Brindar asesorías">
+                    </div>
+                    <div class="service-text p-5 pt-0">
+                      <div class="service-icon">
+                        <img class="img-fluid rounded-circle" src="img/service-6.jpg" alt="">
+                      </div>
+                      <h5 class="mb-3">Brindar asesorías</h5>
+                      <a class="btn btn-square rounded-circle" href="#"><i class="bi bi-chevron-double-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Puedes agregar más col aquí si quieres -->
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Controles personalizados con SVG y color #f1b671 -->
+          <button class="carousel-control-prev custom-control" type="button" data-bs-target="#serviceCarousel" data-bs-slide="prev" style="left: -60px; width: 50px; height: 50px; background:#8b2417 ;">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="#f1b671" viewBox="0 0 16 16" width="30" height="30">
+              <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L6.707 7l4.647 4.646a.5.5 0 0 1-.708.708l-5-5a.5.5 0 0 1 0-.708l5-5a.5.5 0 0 1 .708 0z"/>
+            </svg>
+          </button>
+
+          <button class="carousel-control-next custom-control" type="button" data-bs-target="#serviceCarousel" data-bs-slide="next" style="right: -60px; width: 50px; height: 50px; background:#8b2417 ;">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="#f1b671" viewBox="0 0 16 16" width="30" height="30">
+              <path fill-rule="evenodd" d="M4.646 14.354a.5.5 0 0 1 0-.708L9.293 8 4.646 3.354a.5.5 0 1 1 .708-.708l5 5a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708 0z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
     </div>
     <!-- Service End -->
 
